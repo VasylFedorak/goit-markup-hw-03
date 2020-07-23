@@ -20,6 +20,10 @@ body {
   color: var(--main-text-color);
 }
 
+.container {
+  width: 1200px;
+}
+
 .list {
   list-style: none;
 }
