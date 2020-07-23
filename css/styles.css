@@ -1,0 +1,263 @@
+:root {
+  --main-text-color: #757575;
+  --bgc: #ffffff;
+  --footer-bgc: #2f303a;
+  --hover-button-blue: #2196f3;
+}
+
+/*загальні*/
+
+body {
+  background-color: var(--bgc);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+.footer-section {
+  background-color: var(--footer-bgc);
+}
+
+/*верхній логотип*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  text-decoration: none;
+
+  color: var(--hover-button-blue);
+}
+
+/*верхній/нижній логотип*/
+
+.logo-black {
+  color: #000000;
+}
+
+.logo-white {
+  color: #ffffff;
+}
+
+/*навігація header*/
+
+.link {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+  color: #212121;
+}
+
+.contacts {
+  color: var(--main-text-color);
+}
+
+/*основна секція*/
+
+.hero {
+  background-color: rgb(78, 82, 80);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  background-color: var(--hover-button-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*ховер ефект*/
+
+.active:hover,
+.active:focus {
+  color: var(--hover-button-blue);
+}
+
+/*секція "Наші переваги"*/
+
+.advantage-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+/*головні заголовки секцій*/
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: #212121;
+}
+
+/*перелік виконуваних робіт*/
+
+.works-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/*секція працівників*/
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+
+  text-align: center;
+
+  color: #212121;
+}
+
+/*текст назви посади члена команди*/
+
+.team-member + p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.188;
+
+  text-align: center;
+}
+
+/*підвал сайту*/
+
+.adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+
+  color: #ffffff;
+}
+
+.adress-contacts {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.feedback {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/*кнопки на сторінці портфоліо*/
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+
+  color: #212121;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.active-portf-btn:hover,
+.active-portf-btn:focus {
+  color: #ffffff;
+  background-color: var(--hover-button-blue);
+}
+
+/*назва проекту в портфоліо*/
+
+.portfolio-item {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-item-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+
+  color: var(--main-text-color);
+}
+
+.portfolio-item-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.555;
+
+  color: #ffffff;
+}
+
+/*забираю підкреслення з ссилкок виконаних проектів на сторінці портфоліо*/
+
+.link-portfolio {
+  text-decoration: none;
+}
+
+.active.current {
+  color: var(--hover-button-blue);
+}
