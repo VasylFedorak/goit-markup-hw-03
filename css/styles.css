@@ -31,16 +31,49 @@ body {
   outline: 2px solid blue;
 }
 
+.container > nav {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.hero.container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.advantage .container,
+.team .container,
+.partners.container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.works .container {
+  padding-bottom: 94px;
+}
+
+.container > .portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
   margin: 0px;
-
+  padding: 0px;
   list-style: none;
+}
+
+.list.nav {
+  margin-bottom: 56px;
 }
 
 .team {
   background-color: #f5f4fa;
 }
 .footer-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--footer-bgc);
 }
 
@@ -95,8 +128,9 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+
   margin-top: 0px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -185,6 +219,11 @@ body {
   text-align: center;
 
   color: #212121;
+}
+
+.team .section-title,
+.partners.container .section-title {
+  margin-bottom: 50px;
 }
 
 /*текст назви посади члена команди*/
