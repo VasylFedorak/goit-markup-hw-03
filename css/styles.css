@@ -20,14 +20,28 @@ body {
   color: var(--main-text-color);
 }
 
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+
   outline: 2px solid blue;
 }
 
@@ -344,11 +358,65 @@ body {
 
 .site-nav .link {
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .auth-nav {
   display: flex;
   margin-left: auto;
+}
+
+.auth-nav > li + li {
+  margin-left: 50px;
+}
+
+.container .list {
+  display: flex;
+}
+
+.advantage .item {
+  width: calc((100% - 30px * 3) / 4);
+}
+
+/*.advantage .item:not(:last-child) {
+  margin-right: 30px;
+}*/
+
+.advantage-item {
+  margin-bottom: 10px;
+}
+
+.works .item {
+  width: calc((100% - 30px * 2) / 3);
+}
+
+.container .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.works .section-title {
+  margin-bottom: 50px;
+}
+
+.team .item {
+  width: calc((100% - 30px * 3) / 4);
+}
+
+.media-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-member {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team-description {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.partners .item {
+  width: calc((100%-30px * 5) / 6);
 }
