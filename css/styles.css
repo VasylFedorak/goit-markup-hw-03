@@ -178,6 +178,12 @@ body {
   color: var(--hover-button-blue);
 }
 
+.active-hero-btn:hover,
+.active-hero-btn:focus {
+  color: var(--hover-button-blue);
+  background-color: var(--bgc);
+}
+
 /*секція "Наші переваги"*/
 
 .advantage-item {
@@ -271,8 +277,6 @@ body {
 }
 
 .feedback {
-  display: flex;
-
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
@@ -334,13 +338,23 @@ body {
   color: #ffffff;
 }
 
+.portfolio .list.nav {
+  margin-bottom: 50px;
+}
+
+.porfolio-nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*забираю підкреслення з ссилкок виконаних проектів на сторінці портфоліо*/
 
 .link-portfolio {
   text-decoration: none;
 }
 
-.active.current {
+.link.active.current {
   color: var(--hover-button-blue);
 }
 
@@ -421,4 +435,26 @@ body {
 
 .partners .item {
   width: calc((100%-30px * 5) / 6);
+}
+
+.container.last-section {
+  display: flex;
+}
+
+.logo.footer {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.adress-footer {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.main-adress {
+  margin-right: 70px;
+}
+
+.footer-media {
+  margin-right: 94px;
 }

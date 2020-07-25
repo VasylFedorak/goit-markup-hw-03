@@ -60,33 +60,35 @@
       <div class="container">
         <section class="portfolio">
           <h1 class="visually-hidden">Наше портфоліо</h1>
-          <ul class="list nav">
-            <li>
-              <button type="button" class="portfolio-button active-portf-btn">
-                Все
-              </button>
-            </li>
-            <li>
-              <button type="button" class="portfolio-button active-portf-btn">
-                Веб-Сайти
-              </button>
-            </li>
-            <li>
-              <button type="button" class="portfolio-button active-portf-btn">
-                Додатки
-              </button>
-            </li>
-            <li>
-              <button type="button" class="portfolio-button active-portf-btn">
-                Дизайн
-              </button>
-            </li>
-            <li>
-              <button type="button" class="portfolio-button active-portf-btn">
-                Маркетинг
-              </button>
-            </li>
-          </ul>
+          <div class="porfolio-nav">
+            <ul class="list nav">
+              <li>
+                <button type="button" class="portfolio-button active-portf-btn">
+                  Все
+                </button>
+              </li>
+              <li>
+                <button type="button" class="portfolio-button active-portf-btn">
+                  Веб-Сайти
+                </button>
+              </li>
+              <li>
+                <button type="button" class="portfolio-button active-portf-btn">
+                  Додатки
+                </button>
+              </li>
+              <li>
+                <button type="button" class="portfolio-button active-portf-btn">
+                  Дизайн
+                </button>
+              </li>
+              <li>
+                <button type="button" class="portfolio-button active-portf-btn">
+                  Маркетинг
+                </button>
+              </li>
+            </ul>
+          </div>
           <ul class="list">
             <li>
               <a href="" aria-label="Технокряк link" class="link-portfolio"
@@ -262,27 +264,30 @@
       </div>
     </main>
     <footer class="footer-section">
-      <div class="container">
-        <a href="./index.html" class="logo">
-          <span>WEB</span> <span class="logo-white">Studio</span>
-        </a>
-        <address class="adress">
-          м.Київ, проспект Лесі Українки,26
-        </address>
-        <address>
-          <a
-            href="mailto:info@example.com"
-            class="adress-contacts active link-portfolio"
-            >info@example.com</a
-          >
+      <div class="container last-section">
+        <section class="main-adress">
+          <a href="./index.html" class="logo footer">
+            <span>WEB</span> <span class="logo-white">Studio</span>
+          </a>
           <br />
-          <a
-            href="tel:+380991111111"
-            class="adress-contacts active link-portfolio"
-            >+38 099 111 11 11</a
-          >
-        </address>
-        <section>
+          <address class="adress adress-footer">
+            м.Київ, проспект Лесі Українки,26
+          </address>
+          <address>
+            <a
+              href="mailto:info@example.com"
+              class="adress-contacts active link-portfolio adress-footer"
+              >info@example.com</a
+            >
+            <br />
+            <a
+              href="tel:+380991111111"
+              class="adress-contacts active link-portfolio"
+              >+38 099 111 11 11</a
+            >
+          </address>
+        </section>
+        <section class="footer-media">
           <h2 class="visually-hidden">Секція соціальні мережі</h2>
           <p class="feedback">Приєднуйтеся</p>
           <ul class="list">
@@ -292,6 +297,7 @@
                 aria-label="Instagram link"
                 target="_blank"
                 rel="noopener noreferrer"
+                class="active"
                 >Instagram</a
               >
             </li>
@@ -301,6 +307,7 @@
                 aria-label="Twitter link"
                 target="_blank"
                 rel="noopener noreferrer"
+                class="active"
                 >Twitter</a
               >
             </li>
@@ -310,6 +317,7 @@
                 aria-label="Facebook link"
                 target="_blank"
                 rel="noopener noreferrer"
+                class="active"
                 >Facebook</a
               >
             </li>
@@ -319,6 +327,7 @@
                 aria-label="LinkedIn link"
                 target="_blank"
                 rel="noopener noreferrer"
+                class="active"
                 >LinkedIn</a
               >
             </li>
