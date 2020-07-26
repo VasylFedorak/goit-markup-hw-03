@@ -154,6 +154,12 @@ body {
 }
 
 .hero-button {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
+  border: none;
+
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -167,8 +173,6 @@ body {
   color: #ffffff;
 
   background-color: var(--hover-button-blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 /*ховер ефект*/
@@ -288,6 +292,8 @@ body {
 
 /*кнопки на сторінці портфоліо*/
 .portfolio-button {
+  padding: 6px 22px;
+
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -300,6 +306,7 @@ body {
   color: #212121;
   background-color: #f5f4fa;
   border-radius: 4px;
+  border: none;
 }
 
 .active-portf-btn:hover,
