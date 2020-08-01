@@ -45,6 +45,8 @@ body {
   outline: 2px solid blue;
 }
 
+/*Потрібні падінги для контейнерів*/
+
 .container > nav {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -271,6 +273,8 @@ body {
   color: #ffffff;
 }
 
+/*тел. та е-mail в футері*/
+
 .adress-contacts {
   font-style: normal;
   font-weight: normal;
@@ -359,6 +363,8 @@ body {
   color: var(--hover-button-blue);
 }
 
+/*flex для основної навігації*/
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -369,9 +375,13 @@ body {
   margin-left: 85px;
 }
 
+/*марджіни між навігацією*/
+
 .site-nav > li + li {
   margin-left: 50px;
 }
+
+/*розширюю область напискання на навігації*/
 
 .site-nav .link {
   display: block;
@@ -388,9 +398,13 @@ body {
   margin-left: 50px;
 }
 
+/*flex для потрібних секцій*/
+
 .container .list {
   display: flex;
 }
+
+/*ширина комірок наших переваг*/
 
 .advantage .item {
   width: calc((100% - 30px * 3) / 4);
@@ -400,48 +414,69 @@ body {
   margin-right: 30px;
 }*/
 
+/*відступ від назви переваги до тексту*/
+
 .advantage-item {
   margin-bottom: 10px;
 }
+
+/*ширина комірок наші роботи*/
 
 .works .item {
   width: calc((100% - 30px * 2) / 3);
 }
 
+/*марджін між комірками(усюди 30px)*/
+
 .container .item:not(:last-child) {
   margin-right: 30px;
 }
+
+/*відступ від заголовка секцій наші роботи до комірок робіт*/
 
 .works .section-title {
   margin-bottom: 50px;
 }
 
+/*ширина комірок з працівниками*/
+
 .team .item {
   width: calc((100% - 30px * 3) / 4);
 }
 
+/*відступи між іконками соц.мереж*/
+
 .media-item:not(:last-child) {
   margin-right: 10px;
 }
+
+/*відступи між ім'ям працівника*/
 
 .team-member {
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
+/*відступииміж посадою працівника*/
+
 .team-description {
   margin-top: 0px;
   margin-bottom: 15px;
 }
 
+/*ширина комірок партнерів*/
+
 .partners .item {
   width: calc((100%-30px * 5) / 6);
 }
+
+/*флекс для підвалу*/
 
 .container.last-section {
   display: flex;
 }
 
+/*відступ для лого у футері*/
 .logo.footer {
   display: inline-block;
   margin-bottom: 20px;
@@ -459,6 +494,8 @@ body {
 .footer-media {
   margin-right: 94px;
 }
+
+/*сторінка портфоліо*/
 
 .examples {
   flex-wrap: wrap;
